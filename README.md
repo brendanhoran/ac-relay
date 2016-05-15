@@ -21,3 +21,6 @@ Basic idea is to be able to simulate the button press on the AC mains relay devi
 I ripped mine apart and solder wires to the switch points.
 This is then feed into a another relay. This relay is attached to the Arduino directly. (Driven by the transistor)
 This allows us to switch the AC mains relay with a fair amount of safety to us and the Arduino.
+
+###  License
+All code licensed under the BSD3 license 

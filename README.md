@@ -16,6 +16,8 @@ Can also be easily extended.
 * Diode 
 * Transistor
 * Cheep AC mains remote control
+* Plastic boxes for relay's and arduino
+* Some wire
 
 Basic idea is to be able to simulate the button press on the AC mains relay device.
 I ripped mine apart and solder wires to the switch points.

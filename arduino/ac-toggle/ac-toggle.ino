@@ -1,6 +1,9 @@
+// brendan@horan.hk
+// ac-toggle
+
 // define the switches
-int relay_1 = 2;
-int relay_2 = 3;
+int relay_1 = 2; // Physical pin D2
+int relay_2 = 3; // Physical pin D3
 
 // string to store the incoming serial data
 String serial_in;
@@ -23,6 +26,7 @@ void loop() {
   if (serial_in == "relay_1") {
    Serial.println("in relay_1");
    digitalWrite(relay_1, HIGH);
+   // wait 200ms for the relay to tigger
    delay(200);
    digitalWrite(relay_1, LOW);
    Serial.println("exit relay_1");
@@ -32,6 +36,7 @@ void loop() {
   if (serial_in == "relay_2") {
    Serial.println("in relay_2");
    digitalWrite(relay_2, HIGH);
+   // wait 200ms for the relay to tigger
    delay(200);
    digitalWrite(relay_2, LOW);
    Serial.println("out relay_2");

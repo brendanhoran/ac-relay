@@ -1,5 +1,3 @@
-# ac-relay
-
 ## Overview 
 The goal of this project is to safely toggle external mains relays via serial commands.
 This is achieved by simple expendable Arduino code and a simple Python script issue commands over serial to the Arduino.
